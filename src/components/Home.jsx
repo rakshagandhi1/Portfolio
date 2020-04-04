@@ -24,9 +24,7 @@ class Home extends Component {
                     <h3>{userInfo.home.description_l1}</h3>
                     <h3>
                         {userInfo.home.description_l2}
-                        <a href={userInfo.home.company_url} target='_blank' rel="noopener noreferrer" className='active-link'>
-                            {userInfo.home.company_name}
-                        </a>.
+                       
                     </h3>
                     <h3>{userInfo.home.description_l3}</h3>
                     <h3>
