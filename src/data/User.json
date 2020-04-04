@@ -1,0 +1,33 @@
+{
+    "home": {
+        "greeting_text": "Hi, I am Raksha Gandhi.",
+        "title": "Developer. Software Engineer.",
+        "description_l1": "Multidisciplinary software engineer who hacks at, makes and occasionally breaks things.",
+        "description_l2": "Fresh college graduate, looking for opportunities in Software Development ",
+        "description_l3": "Fresh Engineer. ✌️",
+        "company_name": "",
+        "company_url": ""
+    },
+    "about": {
+        "title": "I build value by development.",
+        "description_l1": "I’m Raksha Gandhi, but you can just call me Raksha.",
+        "description_l2": "Originally hailing from the India 🇮🇳 for the last decade or so I’ve been honing my skills in software development, production and management roles building products for the web, enterprise and, more recently, Aritificial Intelligence.",
+        "description_l3": "I strive to create elegant solutions that surprise and delight users, while keeping complex technical dependencies in mind for implementation, scalability and developer sanity.",
+        "description_l4": "I’ve worked with small, agile teams on skunkworks projects and larger development teams with product lifecycles spanning multiple years.",
+        "description_l5": "Depending on the team, resources and deliverables I’ve worn many hats over the years - holding titles like Product Engineer, UI Designer, UX Designer, Front-end Developer & Product Owner.",
+        "description_l6": "Have an interesting project? ",
+        "link_label": "Let's connect."
+    },
+    "work": {
+        "title": "From e-commerce platforms to Artifical Intelligence.",
+        "description_l1": "Mostly a trip down memory lane. To be expanded one day."
+    },
+    "contact": {
+        "title": "Let's Connect...",
+        "name": "Raksha Gandhi",
+        "email": " rakshagandhi1997@gmail.com",
+        "resume_label": "Download Resume",
+        "linkedin_url": "https://www.linkedin.com/in/raksha-gandhi-947238180/",
+        "github_url": "https://github.com/rakshagandhi1/"
+    }
+}

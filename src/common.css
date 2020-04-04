@@ -1,0 +1,138 @@
+.h100 {
+    height: 100%;
+}
+
+.op-zero {
+    opacity: 0;
+}
+
+.header {
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    /* margin: 0 5rem; */
+    font-weight: 500;
+    border-bottom: 1px solid #a2a2a2;
+}
+
+.header a {
+    color: #fff;
+    padding: 0.6rem 1rem;
+    text-decoration: none;
+}
+
+.active-link {
+    color: #f0860c !important; /* #f5d356 */
+}
+
+/* HOME PAGE CSS */
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes scaleSize {
+    from {
+        transform: scale(0.5);
+    }
+    to {
+        transform: scale(1)
+    }
+}
+
+@keyframes slideLeft {
+    from {
+        margin-left: 100%;
+    }
+    to {
+        margin-left: 0;
+    }
+}
+
+
+.page {
+    padding: 5rem 45% 5rem 5rem;
+    background-image: none;
+    opacity: 1;
+    animation: fadeIn ease 2s, scaleSize ease 1s;
+}
+
+.greeting-text {
+    font-size: 1.65rem;
+    line-height: 1.2;
+    letter-spacing: 0.01em;
+    font-weight: 500;
+}
+
+.title {
+    font-size: 4rem;
+    line-height: 1.15;
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+}
+
+.page h3 {
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.3;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.contact-page .user {
+    width: 100%;
+    padding-left: 25%;
+    animation: slideLeft 2s ease;
+}
+
+.user-image {
+    width: 10rem;
+    height: 10rem;
+    border: 1px solid #fff;
+    border-radius: 50%;
+}
+
+
+.social-profile img {
+    width: 2.3rem;
+    height: 2.3rem;
+    border-radius: 50%;
+    background: #fff;
+    margin-right: 1rem;
+}
+
+.call-section {
+    display: flex;
+}
+
+.call-section img {
+    width: 2.1rem;
+    height: 2.1rem;
+    background: #fff;
+    border-radius: 50%;
+}
+
+.contact-page {
+    padding: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* media queries */
+@media only screen and (max-width: 425px) {
+    .title {
+        word-break: break-word;
+        font-size: 3rem;
+    }
+
+    .page {
+        padding: 2rem 2rem 2rem 2rem;
+    }
+  }
